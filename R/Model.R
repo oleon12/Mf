@@ -28,7 +28,7 @@ bgExt <- Mpol
 ####
 #Read all 19 raster files at resolution of 2.5, then create a stack object as follows
 
-envs <- stack(bio1,bio2,bio3,bio4,bio5,bio6,bio7,bio8,bio9,
+envs <- stack(bio1,bio2,bio3,bio4,bio5,bio6,bio7,bio8,bio9,bio10,bio11,bio12,bio13,bio14,bio15,bio16,bio17,bio18,bio19)
 
 ####
 
