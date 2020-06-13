@@ -6,13 +6,13 @@ library(ggplot2)
 
 ####
 
-m3p <- readOGR("MaxEnt/PA/M3pa.shp")
-m3v <- readOGR("MaxEnt/PA/M3Vegpa.shp")
+m3p <- readOGR("shp/PA/M3pa.shp")
+m3v <- readOGR("shp/PA/M3Vegpa.shp")
 
-m3b <- readOGR("MaxEnt/PA/M3bin.shp")
-m3vb <- readOGR("MaxEnt/PA/M3Vbin.shp")
+m3b <- readOGR("shp/PA/M3bin.shp")
+m3vb <- readOGR("shp/PA/M3Vbin.shp")
 
-pa <- readOGR("shp/WDPA.shp")
+pa <- readOGR("shp/PA/WDPA.shp")
 
 ####
 
