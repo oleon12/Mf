@@ -73,7 +73,7 @@ proj <- calc(stack(proj1,proj2,proj3,proj4), median, na.rm=T)
 
 plot(proj)
 
-##############################################
+####
 
 occPredVals <- raster::extract(pred, occ[,c(2,3)])
 
