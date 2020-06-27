@@ -1,10 +1,10 @@
 # Shape Files
 ***
 
-1. **G:**
-1. **M:**
-1. **PA:**
-   - M3pa
-   - M3Vegpa
-   - WDPA
+1. **G:** The area of projection
+1. **M:** The calibration area
+1. **PA:** Protected areas polygons
+   - M3pa: Pontential Distrubtion + Elevation restriction
+   - M3Vegpa: Potential Distribution + Elevation + Tree cover restriction
+   - WDPA: PA polygons
  
