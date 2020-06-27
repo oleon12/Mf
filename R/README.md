@@ -13,7 +13,7 @@
 Many scripts use the  WorldClim v2 (2.5') bioclimate variables, so, if you want to use these scripts, you must go to the website of [WorldClime](https://www.worldclim.org/data/worldclim21.html) and download it. Then load it into the scripts as follows:
 
 
-```
+```{r}
 bio1 <- raster::raster("wc2.1_2.5m_bio_1.tif")
 bio2 <- raster::raster("wc2.1_2.5m_bio_2.tif")
 bio3 <- raster::raster("wc2.1_2.5m_bio_3.tif")
