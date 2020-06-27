@@ -10,7 +10,7 @@
 
 ***
 
-Many scripts use the  WorldClim v2 (2.5') bioclimate variables, so, if you want to use these scripts, you must go to the website of [WorldClime](https://www.worldclim.org/data/worldclim21.html) and download it. Then load it into the scripts as follows:
+Many scripts use the  WorldClim v2 (2.5') bioclimate variables, so, if you want to use these scripts, you must go to the website of [WorldClim](https://www.worldclim.org/data/worldclim21.html) and download it. Then, load them into the scripts as follows:
 
 
 ```{r}
