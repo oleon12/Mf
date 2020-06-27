@@ -19,11 +19,11 @@ library(usdm)
 
 ####
 
-occ <- read.csv("../Data/Occ.csv", header = T)
+occ <- read.csv("/Data/In_Occ.csv", header = T)
 
 ####
 
-Mpol <- readOGR("../shp7Andes_M.shp") %>% gBuffer(width = 2.5)
+Mpol <- readOGR("/shp/Andes_M.shp") %>% gBuffer(width = 2.5)
 
 ####
 
@@ -83,8 +83,8 @@ thr
 pred.bin <- proj>thr
 plot(pred.bin)
 
-writeRaster(proj1>thr, "MaxEnt/Proj1_126_40_Bin", format="GTiff")
-writeRaster(proj2>thr, "MaxEnt/Proj2_126_40_Bin", format="GTiff")
-writeRaster(proj3>thr, "MaxEnt/Proj3_126_40_Bin", format="GTiff")
-writeRaster(proj4>thr, "MaxEnt/Proj4_126_40_Bin", format="GTiff")
+writeRaster(proj1>thr, "Data/Proj1_126_40_Bin", format="GTiff")
+writeRaster(proj2>thr, "Data/Proj2_126_40_Bin", format="GTiff")
+writeRaster(proj3>thr, "Data/Proj3_126_40_Bin", format="GTiff")
+writeRaster(proj4>thr, "Data/Proj4_126_40_Bin", format="GTiff")
 
