@@ -4,7 +4,7 @@
 1. G
 1. M
 1. PA
- + M3pa
- + M3Vegpa
- + WDPA
+  1. M3pa
+  1. M3Vegpa
+  1. WDPA
 
