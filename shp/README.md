@@ -2,9 +2,9 @@
 ***
 
 1. G
-2. M
-3. PA
-  + M3pa
-  + M3Vegpa
-  + WDPA
+1. M
+1. PA
+ + M3pa
+ + M3Vegpa
+ + WDPA
 
