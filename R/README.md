@@ -6,7 +6,7 @@
 2. **Model.R:** Build and evaluate the MaxEnt model for the 'present-day' variables 
 3. **Model_Fut.R:** Project the MaxEnt model into future climate conditions
 4. **Areas_Fut.R:** Calculate the loss, gain and stable areas of the projected future climate conditions
-5. **Areas_PA.R:** Calculate the area of the potential distribution that are within the protected areas
+5. **Areas_PAs.R:** Calculate the area of the potential distribution that are within the protected areas
 
 ***
 
